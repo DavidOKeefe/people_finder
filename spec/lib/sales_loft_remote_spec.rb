@@ -21,7 +21,7 @@ describe SalesLoftRemote do
           'id' => 1234,
           'display_name' => 'Beatrix Kiddo',
           'title' => 'Former Assassin',
-          'email' => 'black.mamba@gmail.com'
+          'email_address' => 'black.mamba@gmail.com'
         }
       ]
     }
