@@ -26,6 +26,8 @@ group :development, :test do
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
   gem 'pry-rails'
+  gem 'database_cleaner'
+  gem 'rspec-rails'
 end
 
 group :development do
