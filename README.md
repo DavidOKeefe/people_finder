@@ -1,14 +1,20 @@
-# SalesLoft Development Interview Starter Kit
+# People Finder
 
-This application is a jumping off point for the SalesLoft Development Interview,
-its designed to cut out boilerplate so you can get straight to coding.
+## Implementation:
+- Service object to interact with the API.
+- Person model to cache api response data
+- PersonMetaData to track last time people data cached
+- Worker to fetch updated records
+- Class method on Person to determine letter frequency
+- Service object to perform fuzzy string comparison
+- Method on person to find potential duplicate email addresses.
+- PersonsController and routes to return JSON.
 
-Included in the package.
 
-- Rails 5 Application
-- Webpack Front-end build system
-- React
-- Redux
+## Pending:
+- Fuzzy string implementation is a Proof of Concept but would not be performant. I would probably do the comparision async and create an association to link potential duplicate person objects
+- React front end to display results.
+
 
 ## Getting Started
 
